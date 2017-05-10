@@ -6,12 +6,13 @@ public class Training {
 
 	public static void main(String[] args) {
 
-		 Calendar calendar = Calendar.getInstance();
+		 Calendar cal = Calendar.getInstance();
+		 cal.add(Calendar.DATE, 1);
 
-		    int todayMonth = calendar.get(Calendar.MONTH) + 1;
-		    int todayDay = calendar.get(Calendar.DATE);
+		    int tomorrowMonth = cal.get(Calendar.MONTH) + 1;
+		    int tomorrowDay = cal.get(Calendar.DATE);
 
-		System.out.println("今日は"+ todayMonth +"月"+todayDay +"日です。");
+		System.out.println("明日は"+ tomorrowMonth +"月"+tomorrowDay +"日です。");
 	}
 
 }
