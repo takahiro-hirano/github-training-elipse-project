@@ -13,6 +13,7 @@ public class Training {
 		    int tomorrowDay = cal.get(Calendar.DATE);
 
 		System.out.println("明日は"+ tomorrowMonth +"月"+tomorrowDay +"日です。");
+		String test1;
 	}
 
 }
